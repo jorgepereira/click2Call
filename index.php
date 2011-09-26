@@ -12,7 +12,7 @@ if (isset($_REQUEST['marquee_text']))
                     '<fb:action href="http://www.facebook.com/apps/application.php?api_key=291292077554369">Home</fb:action>' .
                     '<fb:action href="http://apps.facebook.com/clicktocall">Click2Call</fb:action>' .
                 '</fb:subtitle>' .
-                '<a href="http://apps.facebook.com/marquee">' .
+                '<a href="http://apps.facebook.com/clicktocall">' .
                 get_marquee_code($text) .
                 '</a>' .
             '</fb:fbml>';
